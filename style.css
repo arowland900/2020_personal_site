@@ -1,11 +1,12 @@
-body {
+body, *, html {
     background-color: rgb(254, 248, 242);
-    /* background-color: black; */
-    /* padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 20px; */
-    /* color: #746661; */
+    padding: 0;
+    margin: 0;
     font-family: 'Roboto', sans-serif;
+}
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 button:focus {
@@ -21,11 +22,13 @@ button:focus {
 
 .main {
     background-color: black ;
-    width: 100vw;
+    width: 110vw;
     margin-left: -1vw;
-    padding-left: 10vw;
-    padding-right: 10vw;
-    padding-top: 75vh;
+    /* padding-left: 10vw;
+    padding-right: 10vw; */
+    padding-top: 82vh;
+    display: flex;
+    justify-content: space-between;
 }
 
 p {
@@ -35,4 +38,10 @@ p {
 #right-side {
     display: flex;
     justify-content: space-between;
+    align-content: center;
+}
+
+.project {
+    color: white;
+    width: 22vw;
 }
