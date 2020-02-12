@@ -4,6 +4,7 @@ body, html {
     margin: 0;
     font-family: 'Roboto', sans-serif;
 }
+
 html, body {
     max-width: 100%;
     overflow-x: hidden;
@@ -24,12 +25,12 @@ button:focus {
 }
 
 .main {
-    background-color: black ;
+    background-color: black;
     width: 100vw;
     /* margin-left: -1vw; */
     /* padding-left: 10vw;
     padding-right: 10vw; */
-    height: 82vh;
+    /* height: 82vh; */
     display: flex;
     justify-content: space-evenly;
     /* padding-top: 10px; */
@@ -57,4 +58,11 @@ button:focus {
     /* align-items: center; */
     justify-content: center;
     margin-top: 1vw;
+}
+
+.inner-project {
+    background-color: white;
+    height: 46vh;
+    width: 100%;
+    margin-bottom: 1vw;
 }
